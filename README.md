@@ -10,13 +10,13 @@ kennysy@naver.com
 1. R을 설치한다.
  	- https://cran.r-project.org/ 에서 arm version 설치
 
-  2. 터미널에서 다음의 작업을 한다.
+2. 터미널에서 다음의 작업을 한다.
 	- R
 	- install.packages("IRkernel")
 	- IRkernel::installspec(name="r", displayname="R")
 	- q()
 
-  3. VSCode를 실행하고
+3. VSCode를 실행하고
 	- ipyb file을 하나 생성하고
 	- Kernel을 선택한다. 
 	- 선택시 Jupyter Kernel에서 선택한다.
