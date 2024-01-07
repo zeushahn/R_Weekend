@@ -26,8 +26,8 @@ kennysy@naver.com
  # Mac의 VSCode에서 R Code사용시 필요한 내용
 
     options(warn = -1)
-    options(repr.plot.width=15, repr.plot.height=9) 
     Sys.setlocale(category = "LC_ALL", locale = "ko_KR.UTF-8")
 
 # 시각화시 필요한 코드
-	par(family = "AppleGothic", bg='white')
+	 options(repr.plot.width=15, repr.plot.height=9) 	
+	 par(family = "AppleGothic", bg='white')
